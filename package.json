@@ -1,12 +1,12 @@
 {
   "name": "pngquant",
-  "version": "0.1.5-nd",
+  "version": "0.1.5-nd2",
   "description": "The pngquant utility as a readable/writable stream",
   "main": "lib/PngQuant.js",
   "directories": {
     "test": "test"
   },
-  "optionalDependencies": {
+  "dependencies": {
     "pngquant-bin": "~1.0.1"
   },
   "devDependencies": {
