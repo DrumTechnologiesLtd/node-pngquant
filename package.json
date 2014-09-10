@@ -1,6 +1,6 @@
 {
   "name": "pngquant",
-  "version": "0.1.5-nd5",
+  "version": "0.1.5-nd6",
   "description": "The pngquant utility as a readable/writable stream",
   "main": "lib/PngQuant.js",
   "directories": {
@@ -13,6 +13,7 @@
     "unexpected": "=1.0.11"
   },
   "scripts": {
+    "postinstall": "node lib/install.js",
     "prepublish": "mocha",
     "test": "mocha"
   },
